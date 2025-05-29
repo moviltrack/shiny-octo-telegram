@@ -28,7 +28,7 @@ A continuación, se describe el resto de los parámetros de configuración:
 | `lector.ip`         | Dirección IP del lector RFID. Requerida para la conexión. |
 | `lector.session`    | Modo de sesión RFID (`0`: inmediato, `1`: 4s, `2`: infinito). |
 | `logger.level`      | Nivel de registro (`INFO`, `DEBUG`, `ERROR`). |
-| `lector.power`      | Potencia de transmisión en dBm (Máx: `31.5`, Mín: `10.5`). Para `31.5`, debe estar en **PoE+**. |
+| `lector.power`      | Potencia de transmisión en dBm (Máx: `31.5`, Mín: `10.5`). Este valor es un número de punto flotante, debe tener el formato XX.XX .Para `31.5`, debe estar en **PoE+**. |
 | `lector.sensitivity` | Sensibilidad de recepción en dBm (ejemplo: `-70.0`). |
 | `lector.rfmode`     | Configuración del modo RF (valor entero). |
 | `lector.antenas`    | Lista de antenas habilitadas separadas por comas. |
